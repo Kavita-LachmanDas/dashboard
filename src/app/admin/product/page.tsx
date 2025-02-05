@@ -76,7 +76,7 @@ export default function AdminPanel() {
       alert("Product deleted successfully!");
     } catch (error) {
       console.error("Error deleting product:", error);
-      alert("Failed to delete product.");
+     
     }
   };
 
