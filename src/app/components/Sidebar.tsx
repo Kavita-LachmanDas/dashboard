@@ -6,7 +6,7 @@ const ThemedIcon = ({ icon: Icon, className }: { icon: React.ElementType; classN
 
 import Link from "next/link";
 import { useState } from "react";
-import { FaBox, FaChartBar, FaCar, FaUser, FaCarAlt, FaTimes, FaBars, FaSignOutAlt, FaBed, FaChair } from "react-icons/fa";
+import { FaBox, FaChartBar,  FaUser,  FaTimes, FaBars, FaSignOutAlt, FaBed, FaChair } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 
 const SideBar = () => {

@@ -22,7 +22,7 @@ export default function Dashboard() {
   const [totalProducts, setTotalProducts] = useState<number>(0);
   const [totalStock, setTotalStock] = useState<number>(0);
   const [totalAmount, setTotalAmount] = useState<number>(0);
-  const [totalOrders, setTotalOrders] = useState<number>(9);
+  const [totalOrders] = useState<number>(9);
  
 
   useEffect(() => {
