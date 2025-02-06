@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 import { FaBox, FaMoneyBillWave, FaShoppingCart, FaUsers } from "react-icons/fa";
 import { client } from "@/sanity/lib/client";
-import CarAnalyticsGraph from "../components/CarAnalytics";
+import CarAnalyticsGraph from "../components/FurnitureAnalytics";
 
 const ThemedIcon = ({ icon: Icon, className }: { icon: React.ElementType; className?: string }) => (
   <Icon className={className || ""} />
